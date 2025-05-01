@@ -1,0 +1,89 @@
+/* Base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background: #f5f5f5;
+    color: #333;
+}
+h1, h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+a, button, input[type="submit"] {
+    cursor: pointer;
+}
+
+form {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.form-group {
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+}
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.form-group input,
+.form-group select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+input[type="submit"],
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+    margin-top: 1rem;
+}
+input[type="submit"]:hover,
+button:hover {
+    background: #0056b3;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+table th, table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+table th {
+    background: #007bff;
+    color: #fff;
+}
+table tr:nth-child(even) {
+    background: #fafafa;
+}
+
+/* Utility */
+.clear-btn {
+    display: block;
+    text-align: center;
+    max-width: 800px;
+    margin: 1rem auto 0;
+}
